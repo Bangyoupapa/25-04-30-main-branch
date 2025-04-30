@@ -1,0 +1,30 @@
+services:
+  backend-app:
+    build: ./backend_fastapi
+    image: m1a6rk230/m1a6rk230-branch-backend:latest
+    container_name: backend-app-1
+    expose:
+      - "8000"
+    restart: always
+    networks:
+      - intranet
+
+  frontend-vue:
+    build: ./frontend_vue
+    image: m1a6rk230/m1a6rk230-branch-frontend:latest
+    container_name: frontend-vue
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - backend-app
+    networks:
+      - intranet
+
+networks:
+  intranet:
+    driver: bridge
+
+volumes:
+  mariadb_data:

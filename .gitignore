@@ -1,0 +1,7 @@
+
+venv
+.env
+# backend_fastapi/app/
+# frontend_vue/app/
+*.bak
+nginx/
